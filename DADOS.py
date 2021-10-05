@@ -23,7 +23,7 @@ for i in range(y*x):
         cc=cc+1
     if valor==6:
         s=s+1
-numeros[i]=valor
+    numeros[i]=valor
 i=+1 
 
 total=u+d+t+c+cc+s
