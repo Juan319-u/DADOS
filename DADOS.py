@@ -27,8 +27,8 @@ numeros[i]=valor
 i=+1 
 
 total=u+d+t+c+cc+s
-probapar=(d+c+s)
-probaimpar=(u+t+cc)
+probapar=((d+c+s)/total)*100
+probaimpar=((u+t+cc)/total)*100
 
 print(numeros.values())
 print("este es la cantidad de 1 que hay ",u)
